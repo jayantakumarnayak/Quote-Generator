@@ -18,6 +18,7 @@ function complete(){
 function newquote(){
 loading();
 // pick random quote from arrays
+//testing githubs
 const quote=localquotes[Math.floor(Math.random()*localquotes.length)];
 if(!quote.author){
     authortext.textContent='Unknown';
